@@ -5,11 +5,17 @@ DATASET:-
   
   
 Project2-
+DATASET-https://www.kaggle.com/datasets/therealoise/top-1000-highest-grossing-movies-of-all-time
+
+fileformat-
+
 create or replace file format commaformat
 type='csv'
 field_delimiter=','
 record_delimiter='\n'
 skip_header=1
+
+declaring stage-
 
 create or replace stage S3datastage1
 file_format=commaformat
