@@ -11,5 +11,5 @@ join raw_trf.tr_movie_name tmn
 using (id)
 join raw_trf.tr_movie_rating tmr
 using (id)
-join raw_trf.tr_movie_earning tme
+join raw_trf.tr_movie_earning1 tme
 using (id)
