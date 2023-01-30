@@ -1,19 +1,3 @@
-Welcome to your new dbt project!
-
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
-
 
 Project1-
 DATASET:-
@@ -30,7 +14,7 @@ skip_header=1
 create or replace stage S3datastage1
 file_format=commaformat
 URL='s3://dbtlearning/new/new1'
-CREDENTIALS=(AWS_KEY_ID='AKIAYIEM6YHYAS5BOV45' AWS_SECRET_KEY='MbVC19cT2E4+H3VbTvr8mkuSM9YIF+tKO9Lg9YJT');
+CREDENTIALS=(AWS_KEY_ID='#############' AWS_SECRET_KEY='#############');
 
 -----------------------------------------------------------------------------------
 create or replace table movie_earning(
